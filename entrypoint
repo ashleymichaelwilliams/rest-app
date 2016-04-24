@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /opt
+chmod a+x /opt/rest-app.py
+exec /opt/rest-app.py .secrets.txt
